@@ -1,0 +1,130 @@
+body{
+    background-color: gray;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: fit-content;
+}
+.userJoin{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+.userLeft{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+.user{
+    border: 2px solid black;
+    width: 80%;
+    padding: 2rem;
+    margin-top: 200px;
+    /* display: none; */
+     /* User form display block initially. So this need removed*/
+    max-width: 300px;
+   background-color: royalblue;
+}
+#username-input,#username-input:focus{
+    outline: none;
+    padding: 2px;
+    width: 90%;
+    border-radius: 5px;
+    border: 0px;
+    font-size: large;
+}
+#para{
+    font-size: 20px;
+}
+#join-btn{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem,1.5rem;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.chatroom{
+    display: none;/*this initially none*/
+}
+.chatroom h2{
+    display: block;
+    background-color: black;
+    color: white;
+    width: 99vw;
+    height: 50px;
+    text-align: center;
+}
+.message{
+    display: flex;
+    flex-flow: column wrap;
+    column-gap: 2px;
+    margin-block-end: 45px;
+}
+.left{
+    clear: both;
+    background-color: aquamarine;
+    max-width: 350px;
+    word-wrap: break-word;
+    border-radius: 8px;
+    align-self:flex-start;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 3px;
+    padding: 5px;
+}
+.right{
+    align-self: flex-end;
+    clear: both;
+    background-color: aquamarine;
+    max-width: 350px;
+    word-wrap: break-word;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-right: 15px; 
+    margin-bottom: 3px;
+    padding: 5px;
+}
+#msg{
+    width:90vw;
+    height: 30px;
+    border-radius: 10px;
+    border: 0px solid black;
+    font-size: 20px;
+    margin: 10px;
+    outline: none;
+}
+#msg:focus{
+    box-shadow: 0 0 7px rgba(81, 203, 238, 1);
+    border: 2px solid rgba(81, 203, 238, 1);
+    
+}
+#send-btn{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+#send-btn:hover{
+    background-color: green;
+    color:black;
+}
+#foot{
+    display: flex;
+    align-items: center;
+    width: 99vw;
+    background-color: gray;
+    position: fixed;
+    bottom: 0px;
+    
+}
